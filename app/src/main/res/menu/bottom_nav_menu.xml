@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/listLeague" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_airplay_black_24dp"
+        android:title="@string/PastEvent" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_queue_play_next_black_24dp"
+        android:title="@string/nextEvent" />
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="@string/FavoriteLeague" />
+
+</menu>
